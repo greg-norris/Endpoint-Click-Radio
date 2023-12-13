@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GHIElectronics.Endpoint.Core" Version="0.0.2.4" />
+    <PackageReference Include="GHIElectronics.Endpoint.Devices.Display" Version="0.0.2.4" />
+    <PackageReference Include="GHIElectronics.Endpoint.Devices.I2c" Version="0.0.2.4" />
+    <PackageReference Include="GHIElectronics.Endpoint.Pins" Version="0.0.2.4" />
+    <PackageReference Include="System.Device.Gpio" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>
